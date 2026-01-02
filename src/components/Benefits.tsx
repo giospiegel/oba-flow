@@ -36,10 +36,13 @@ const Benefits = () => {
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-3 mb-6">
               Finance Expertise Meets Cutting-Edge Automation
             </h2>
-            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+            <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
               With extensive experience in finance and a passion for efficiency, 
               I understand the pain points you face daily. Every solution is crafted 
               to address real challenges, not just theoretical problems.
+            </p>
+            <p className="text-lg font-semibold text-accent mb-8">
+              Autonomous Agents that adapt to YOUR workflow—not the other way around.
             </p>
             
             <div className="space-y-4">
