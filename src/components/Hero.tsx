@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import obaLogo from "@/assets/oba-logo.jpg";
+
 const Hero = () => {
-  return <section className="relative min-h-screen bg-hero overflow-hidden">
+  return (
+    <section className="relative min-h-screen bg-hero overflow-hidden">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-20 left-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl animate-pulse-subtle" />
@@ -13,7 +15,11 @@ const Hero = () => {
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Logo */}
           <div className="mb-8 opacity-0 animate-fade-up">
-            <img src={obaLogo} alt="OBA 365 - Optimal Business Accelerator" className="h-24 md:h-32 w-auto object-contain" />
+            <img 
+              src={obaLogo} 
+              alt="OBA 365 - Optimal Business Accelerator" 
+              className="h-24 md:h-32 w-auto object-contain"
+            />
           </div>
 
           {/* Badge */}
@@ -31,7 +37,10 @@ const Hero = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 opacity-0 animate-fade-up delay-300 leading-relaxed">From extracting data out of tax documents to automating variance analysis narratives, we build custom AI-powered workflows that save you hours every week.</p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 opacity-0 animate-fade-up delay-300 leading-relaxed">
+            From extracting data from tax documents to automating variance analysis narratives, 
+            we build custom AI-powered workflows that save you hours every week.
+          </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up delay-400">
@@ -68,6 +77,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;
