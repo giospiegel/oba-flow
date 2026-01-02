@@ -35,7 +35,7 @@ const Contact = () => {
                   className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold bg-transparent"
                 >
                   <Mail className="w-5 h-5" />
-                  Get in Touch
+                  E-Mail Us
                 </Button>
               </div>
             </div>
