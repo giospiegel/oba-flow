@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Mail, Calendar } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -21,26 +21,16 @@ const Contact = () => {
                 and free up your time for what matters most.
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  size="xl" 
-                  className="bg-accent-foreground text-primary hover:bg-accent-foreground/90 font-semibold"
-                >
-                  <Calendar className="w-5 h-5" />
-                  Schedule a Call
-                </Button>
-                <Button 
-                  size="xl" 
-                  variant="outline"
-                  className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold bg-transparent"
-                  asChild
-                >
-                  <a href="mailto:support@oba365.com">
-                    <Mail className="w-5 h-5" />
-                    E-Mail Us
-                  </a>
-                </Button>
-              </div>
+              <Button 
+                size="xl" 
+                className="bg-accent-foreground text-primary hover:bg-accent-foreground/90 font-semibold"
+                asChild
+              >
+                <a href="mailto:support@oba365.com">
+                  <Mail className="w-5 h-5" />
+                  E-Mail Us
+                </a>
+              </Button>
             </div>
           </div>
 
