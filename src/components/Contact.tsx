@@ -33,9 +33,12 @@ const Contact = () => {
                   size="xl" 
                   variant="outline"
                   className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold bg-transparent"
+                  asChild
                 >
-                  <Mail className="w-5 h-5" />
-                  E-Mail Us
+                  <a href="mailto:support@oba365.com">
+                    <Mail className="w-5 h-5" />
+                    E-Mail Us
+                  </a>
                 </Button>
               </div>
             </div>
