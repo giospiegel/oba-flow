@@ -31,10 +31,10 @@ const Footer = () => {
               Why Us
             </a>
             <a 
-              href="#contact" 
+              href="mailto:support@oba365.com" 
               className="text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
             >
-              Contact
+              support@oba365.com
             </a>
           </nav>
 
