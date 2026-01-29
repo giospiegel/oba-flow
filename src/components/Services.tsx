@@ -23,7 +23,7 @@ const services = [
     icon: Share2,
     title: "AI Finance Analyst",
     description: "Analyze financial statements and reports, draft executive summary in desired tone and style.",
-    highlight: "Scheduling • Analytics • Engagement",
+    highlight: "Summarize • Analytics • Engagement",
   },
 ];
 
