@@ -15,14 +15,14 @@ const services = [
   },
   {
     icon: MessageSquare,
-    title: "AI Chatbots",
-    description: "Deploy custom AI assistants that understand your business context, answer queries, and help your team access information instantly.",
+    title: "AI Assistant",
+    description: "Deploy custom AI assistants that understand your business context, answer queries, and help you with specific tasks.",
     highlight: "Customer Support • Internal Tools • Q&A",
   },
   {
     icon: Share2,
-    title: "Social Media Automation",
-    description: "Streamline your social presence with intelligent content scheduling, engagement tracking, and automated responses.",
+    title: "AI Finance Analyst",
+    description: "Analyze financial statements and reports, draft executive summary in desired tone and style.",
     highlight: "Scheduling • Analytics • Engagement",
   },
 ];
