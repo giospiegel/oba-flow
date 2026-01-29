@@ -4,7 +4,7 @@ const services = [
   {
     icon: FileText,
     title: "Document Data Extraction",
-    description: "Automatically extract and process data from and image documents, classify invoices, receipts, and other unsupported documents with AI-powered accuracy.",
+    description: "Automatically extract and process data from image documents, classify invoices, receipts, and other unsupported documents with AI-powered accuracy.",
     highlight: "receipts • Invoices • unsupported",
   },
   {
