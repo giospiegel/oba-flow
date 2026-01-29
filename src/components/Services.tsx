@@ -4,8 +4,8 @@ const services = [
   {
     icon: FileText,
     title: "Document Data Extraction",
-    description: "Automatically extract and process data from PDF and image tax documents, invoices, and financial statements with AI-powered accuracy.",
-    highlight: "Tax Documents • Invoices • Statements",
+    description: "Automatically extract and process data from and image documents, classify invoices, receipts, and other unsupported documents with AI-powered accuracy.",
+    highlight: "receipts • Invoices • unsupported",
   },
   {
     icon: TrendingUp,
