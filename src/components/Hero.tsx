@@ -31,7 +31,7 @@ const Hero = () => {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 opacity-0 animate-fade-up delay-300 leading-relaxed">From extracting data out of documents to automating variance analysis narratives, we build custom AI-powered workflows that save you hours every week.</p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 opacity-0 animate-fade-up delay-300 leading-relaxed">From business process automations to AI agents that perform various tasks for you, we build custom AI-powered workflows that save you hours every week.</p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up delay-400">
