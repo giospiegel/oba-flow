@@ -26,7 +26,7 @@ const Hero = () => {
 
           {/* Headline */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 opacity-0 animate-fade-up delay-200 leading-tight">
-            Transform Your Finance Operations with{" "}
+            Transform Your Business Operations with{" "}
             <span className="text-gradient">Intelligent Automation</span>
           </h1>
 
@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Trust indicators */}
           <div className="mt-16 pt-8 border-t border-border/50 opacity-0 animate-fade-up delay-500">
             <p className="text-sm text-muted-foreground mb-4">
-              Built by finance professionals, for finance professionals
+              Built by professionals, for professionals
             </p>
             <div className="flex items-center justify-center gap-8 text-muted-foreground">
               <div className="flex flex-col items-center">
